@@ -1,0 +1,7 @@
+# JSON based patches
+- op: add
+  path: /metadata/labels
+  value: {}
+- op: add
+  path: /metadata/labels/app-type
+  value: web-server

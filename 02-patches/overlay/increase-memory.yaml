@@ -1,0 +1,13 @@
+# YAML based patches
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app
+spec:
+  template:
+    spec:
+      containers:
+      - name: web-app
+        resources:
+          limits:
+            memory: "256Mi"
